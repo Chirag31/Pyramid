@@ -41,14 +41,14 @@ public class PyramidController {
 			Collections.sort(pyramidListValues);
 
 			Set<Integer> pyramidSetValues = new HashSet<Integer>(pyramidListValues);
-			logger.info("pyramidSetValues size : " + pyramidSetValues.size());
+			logger.info("pyramidSetValues size : "+ pyramidSetValues.size());
 			int uniqeCount = pyramidSetValues.size();
 
 			int totalCount = pyramidListValues.size();
-			logger.info("totalCount : " + totalCount);
+			logger.info("totalCount : "+ totalCount);
 
 			int lastElement = pyramidListValues.get(totalCount - 1);
-			logger.info("lastElement : " + lastElement);
+			logger.info("lastElement : "+ lastElement);
 
 			if (totalCount == lastElement && uniqeCount == totalCount) {
 				return ResponseEntity.ok("true");
