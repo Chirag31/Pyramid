@@ -6,3 +6,5 @@ After importing project default URL will be http://localhost:8989/pyramid and en
 In application.properties port can be changed.
 
 To Run Junit5 Right click on project --> properties --> on Libraries tab --> Add Liberary Select Junit --> Select Junit5.
+
+To Download project use URL , https://github.com/Chirag31/Pyramid.git
