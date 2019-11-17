@@ -11,5 +11,7 @@ To Download project use URL , https://github.com/Chirag31/Pyramid.git
 
 Few example are as below.
 banana is pyramid word as 1'b 2's n and 3's a
+
 aaaaaaabbcccddddeeeeeffffffo is pyramid as 1's o 2's b 3'c 4'd 5'e 6'f n 7's a.
+
 abc is not pyramid as 1's a 1's b and 1' c 
